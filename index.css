@@ -231,7 +231,7 @@
   font-size: 18px;
   align-self: center;
   text-align: left;
-  line-height: 0.5;
+  line-height: 1;
   margin-bottom: var(--dl-space-space-twounits);
 }
 .home-text10 {
