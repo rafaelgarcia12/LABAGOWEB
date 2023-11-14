@@ -101,21 +101,20 @@
   background-color: var(--dl-color-primary1-blue80);
 }
 .home-logo {
-  color: #000000;
+  color: #ffffff;
   width: var(--dl-size-size-large);
   height: 40px;
   font-size: 2em;
   align-self: center;
-  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  box-shadow: 5px 5px 10px 0px #05aeed;
   font-style: normal;
   text-align: center;
   font-family: "Lato";
   font-weight: 900;
   line-height: 1.15;
-  border-radius: 15px;
+  border-radius: var(--dl-radius-radius-radius4);
   text-transform: uppercase;
   text-decoration: none;
-  background-color: #ffffff;
 }
 .home-text01 {
   font-size: 32px;
@@ -445,7 +444,7 @@
   justify-content: space-between;
 }
 .home-text22 {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
 }
 @media(max-width: 991px) {
   .home-hero1 {
