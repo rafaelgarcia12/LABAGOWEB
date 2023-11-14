@@ -16,7 +16,7 @@
   --dl-space-space-unit: 16px;
   --dl-color-primary-100: #003EB3;
   --dl-color-primary-300: #0074F0;
-  --dl-color-primary-500: #4689af;
+  --dl-color-primary-500: #14A9FF;
   --dl-color-primary-700: #85DCFF;
   --dl-color-success-300: #199033;
   --dl-color-success-500: #32A94C;
@@ -27,15 +27,16 @@
   --dl-space-space-halfunit: 8px;
   --dl-space-space-sixunits: 96px;
   --dl-space-space-twounits: 32px;
-  --dl-color-primary1-blue80: rgb(75, 137, 252);
+  --dl-color-primary1-blue80: #1987fbff;
   --dl-radius-radius-radius2: 2px;
   --dl-radius-radius-radius4: 4px;
   --dl-radius-radius-radius8: 8px;
   --dl-space-space-fiveunits: 80px;
   --dl-space-space-fourunits: 64px;
-  --dl-color-primary1-blue100: rgb(0, 2, 145);
+  --dl-color-primary1-blue100: #002d65ff;
   --dl-space-space-threeunits: 48px;
-  --dl-color-secondary-gray500: rgb(217, 217, 217);
+  --dl-color-secondary-gray500: #d9d9d9ff;
+  --dl-color-secondary-grey400: #eff0f2ff;
   --dl-space-space-oneandhalfunits: 24px;
 }
 .button {
@@ -83,15 +84,21 @@
 .heading2 {
   font-size: 2.5rem;
 }
-.heading1 {
-  font-size: 4.5rem;
-  font-weight: 700;
+.heading3 {
+  font-size: 1.8rem;
 }
 .sectionTitle {
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 1.2;
   text-transform: uppercase;
+}
+.heading1 {
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+.heading4 {
+  font-size: 1.2rem;
 }
 .Content {
   font-size: 16px;
@@ -109,19 +116,17 @@
   text-transform: none;
   text-decoration: none;
 }
-.roboto {
-  font-size: 2em;
-  font-family: Inter;
-  font-weight: bold;
-  line-height: 1.15;
-  text-transform: uppercase;
-  text-decoration: none;
-}
 @media(max-width: 767px) {
   .heading2 {
     font-size: 1.8rem;
   }
+  .heading3 {
+    font-size: 1.1rem;
+  }
   .heading1 {
     font-size: 2.5rem;
+  }
+  .heading4 {
+    font-size: 1.2rem;
   }
 }
