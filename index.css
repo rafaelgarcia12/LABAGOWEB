@@ -101,18 +101,21 @@
   background-color: var(--dl-color-primary1-blue80);
 }
 .home-logo {
-  color: rgb(255, 255, 255);
-  width: var(--dl-size-size-xlarge);
+  color: #000000;
+  width: var(--dl-size-size-large);
   height: 40px;
   font-size: 2em;
   align-self: center;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
   font-style: normal;
   text-align: center;
   font-family: "Lato";
   font-weight: 900;
   line-height: 1.15;
+  border-radius: 15px;
   text-transform: uppercase;
   text-decoration: none;
+  background-color: #ffffff;
 }
 .home-text01 {
   font-size: 32px;
@@ -229,44 +232,20 @@
   font-size: 18px;
   align-self: center;
   text-align: left;
-  line-height: 1.6;
-  margin-bottom: var(--dl-space-space-twounits);
-}
-.home-text09 {
   line-height: 0.5;
+  margin-bottom: var(--dl-space-space-twounits);
 }
 .home-text10 {
   color: var(--dl-color-gray-800);
   font-size: 18px;
-  line-height: 0.5;
-}
-.home-text11 {
-  line-height: 0.5;
-}
-.home-text12 {
-  line-height: 0.5;
 }
 .home-text13 {
   color: var(--dl-color-gray-800);
   font-size: 18px;
-  line-height: 0.5;
-}
-.home-text14 {
-  line-height: 0.5;
-}
-.home-text15 {
-  line-height: 0.5;
 }
 .home-text16 {
   color: var(--dl-color-gray-800);
   font-size: 18px;
-  line-height: 0.5;
-}
-.home-text17 {
-  line-height: 0.5;
-}
-.home-text18 {
-  line-height: 0.5;
 }
 .home-image {
   width: 422px;
